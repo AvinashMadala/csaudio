@@ -1,0 +1,57 @@
+
+body {
+    overflow: hidden !important;
+}
+.drums_holder{
+    padding-left: 20%;
+}
+.drums_holder svg{
+
+    position: fixed;
+    top: -100px;
+}
+.position-fixed{
+    position: fixed;
+    z-index: 10000;
+}
+.clickable_plates, .clickable_drum, .hihat_plates{
+    cursor: pointer;
+}
+.btn{
+    pointer-events: none;
+}
+.btn-crash{
+    left: 30%;
+    top: 13%;
+}
+.btn-floor-tom{
+    top: 33%;
+    left: 39%;
+}
+.btn-tom-left{
+    top: 7%;
+    left: 45%;
+}
+.btn-tom-right {
+    top: 8%;
+    left: 57%;
+}
+.btn-kick-drum {
+    top: 59%;
+    left: 50%;
+}
+.btn-snare-drum {
+    top: 33%;
+    left: 61%;
+}
+.btn-hi-hat {
+    top: 14%;
+    left: 69%;
+}
+
+#visualizer{
+    position: fixed;
+    bottom: 5px;
+    left: 20%;
+}
+

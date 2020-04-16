@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Custom styles -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col drums_holder">
+                </div>
+            </div>
+            <div class="row">
+                <canvas id="visualizer" width="1000" height="250"></canvas>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-secondary position-fixed btn-crash" d-type="Crash-Cymbol"> E </button>
+            <button class="btn btn-secondary position-fixed btn-floor-tom" d-type="Floor-Tom-Drum"> F </button>
+            <button class="btn btn-secondary position-fixed btn-tom-left" d-type="Tom-Left-Drum"> T </button>
+            <button class="btn btn-secondary position-fixed btn-kick-drum" d-type="Kick-Drum"> SPACE </button>
+            <button class="btn btn-secondary position-fixed btn-tom-right" d-type="Tom-Right-Drum"> Y </button>
+            <button class="btn btn-secondary position-fixed btn-snare-drum" d-type="Snare-Drum"> J </button>
+            <button class="btn btn-secondary position-fixed btn-hi-hat" d-type="hi_hat"> I </button>
+        </div>
+    </body>
+
+    <!-- libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js"></script>
+    <!-- preloaders -->
+    <script src="js/config.js"></script>
+    <script src="js/buffer-loader.js"></script>
+    <!-- scripts -->
+    <script src="js/waa_sounds.js"></script>
+    <script src="js/script.js"></script>
+</html>
+
+
