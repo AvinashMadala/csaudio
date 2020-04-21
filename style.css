@@ -7,6 +7,7 @@ body {
     position: fixed;
     top: -100px;
     left: 300px;
+    height: 720px !important;
 }
 .position-fixed{
     position: fixed;
@@ -36,7 +37,7 @@ body {
 }
 .btn-kick-drum {
     top: 360px;
-    left: 650px;
+    left: 645px;
 }
 .btn-snare-drum {
     top: 170px;
